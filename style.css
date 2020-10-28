@@ -24,14 +24,14 @@ h1 {
     padding: 2rem 3rem;
 }
 .fa-tint {
-    color: rgb(160, 160, 160,);
+    color: rgb(160, 160, 160);
     position: absolute;
     top: -20px;
     animation: fall linear forwards;
 }
 
 @keyframes fall {
-    0% {
+    to {
         transform: translateY(105vh);
     }
 }
