@@ -1,6 +1,6 @@
 const body = document.body;
 
-setInterval(rainFall, 500);
+setInterval(rainFall, 100);
 
 function rainFall() {
     const waterDrop = document.createElement('i');
